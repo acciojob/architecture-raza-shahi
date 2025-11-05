@@ -1,1 +1,27 @@
 /*  your css code here. If applicable */
+.imageContainer{
+  max-width: 1100px;
+  background-color: gray;
+  margin: auto;
+  padding: 20px;
+}
+.imageContainer img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+}
+table{
+  width: 100%;
+  /* border-collapse: collapse; */
+
+}
+td:nth-child(odd) {
+  width: 200px;
+}
+td:nth-child(even) {
+  width: 600px;
+}
+td img{
+  width: 100%;
+  height: auto;
+}
